@@ -75,10 +75,6 @@ class Words extends React.Component {
         });
     }
 
-    /*shouldComponentUpdate(nextProps, nextState) {
-        return nextState.words != this.state.words;
-    }*/
-
     componentDidMount() {
         this._get();
     }
